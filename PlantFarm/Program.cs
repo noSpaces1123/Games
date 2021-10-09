@@ -27,6 +27,7 @@ namespace PlantFarm
             plant.Add("yellow", 1);
             plant.Add("white", 1);
 
+
             Dictionary<string, int> energy = new Dictionary<string, int>();
             Tile[,] farm = new Tile[10, 10];
             for (int y = 0; y < farm.GetLength(1); y++)
